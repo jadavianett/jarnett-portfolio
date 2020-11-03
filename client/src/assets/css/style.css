@@ -1,4 +1,49 @@
 h2 {
     text-align: center;
-    
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: bolder;
+
+}
+
+
+h6 {
+    color: #a67e2e;
+}
+
+#banner {display: block;
+    width: 100%;
+    height: auto;
+    margin-bottom: 2em;
+}
+
+nav ul a {
+    transition: background-color .3s;
+    font-size: 1.3rem!important;
+    color: #fff;
+    display: block;
+    padding: 0 15px;
+    cursor: pointer;
+}
+
+h1, h5 {
+    font-family: 'Nanum Myeongjo', serif;
+}
+.btn-large {
+    background-color: #a67e2e!important;
+    color: white!important;
+
+}
+
+h5 {
+    font-size: 2.15rem!important;
+}
+
+
+h6 {
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 1.75rem!important;
+}
+
+p {
+    font-size: 16px;
 }
