@@ -1,61 +1,63 @@
 h2 {
-    text-align: center;
-    font-family: 'Nanum Myeongjo', serif;
-    font-weight: bolder;
-
+  text-align: center;
+  font-family: "Nanum Myeongjo", serif;
+  font-weight: bolder;
 }
 
 .row {
-    text-align: center!important;
+  text-align: center !important;
 }
 
 h6 {
-    color: #a67e2e;
+  color: #a67e2e;
 }
 
-#banner {display: block;
-    width: 100%;
-    height: auto;
-    margin-bottom: 2em;
+#banner {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-bottom: 2em;
 }
 
+.inline-link {
+    color: #a67e2e!important;
+    text-decoration: underline;
+}
 nav ul a {
-    transition: background-color .3s;
-    font-size: 1.3rem!important;
-    color: #fff;
-    display: block;
-    padding: 0 15px;
-    cursor: pointer;
-    font-family: 'Pathway Gothic One', sans-serif;
-    
+  transition: background-color 0.3s;
+  font-size: 1.3rem !important;
+  color: #fff;
+  display: block;
+  padding: 0 15px;
+  cursor: pointer;
+  font-family: "Pathway Gothic One", sans-serif;
 }
 h3 {
-    font-family: 'Nanum Myeongjo', serif;
+  font-family: "Nanum Myeongjo", serif;
 }
 
-h1, h5 {
-    font-family: 'Nanum Myeongjo', serif;
+h1,
+h5 {
+  font-family: "Nanum Myeongjo", serif;
 }
 .btn-large {
-    background-color: #a67e2e!important;
-    color: white!important;
-
+  background-color: #a67e2e !important;
+  color: white !important;
 }
 
-
 h5 {
-    font-size: 2.15rem!important;
+  font-size: 2.15rem !important;
 }
 
 h1 {
-    animation: fadeIn;
-    animation-duration: 4s;
+  animation: fadeIn;
+  animation-duration: 4s;
 }
 h6 {
-    font-family: 'Pathway Gothic One', sans-serif;
-    font-size: 1.75rem!important;
+  font-family: "Pathway Gothic One", sans-serif;
+  font-size: 1.75rem !important;
 }
 
 p {
-    font-size: 16px;
+  font-size: 16px;
 }
