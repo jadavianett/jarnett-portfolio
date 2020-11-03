@@ -1,4 +1,5 @@
 import React from "react";
+import '../assets/css/style.css';
 
 function About() {
   return (
@@ -48,13 +49,21 @@ function About() {
       </p>
       <hr/>
       
+      <div className="container class-container">
       <h2> Let's Connect!</h2>
-
+      <br/>
+      <div class="row">
+<div className="col s4">
 <a class="waves-effect waves-light btn-large" href="https://www.linkedin.com/in/jada-arnett-357130158/">LinkedIn</a>
-
+</div>
+<div className="col s4">
 <a class="waves-effect waves-light btn-large" href="https://github.com/jadavianett">Github</a>
-
+</div>
+<div className="col s4">
 <a class="waves-effect waves-light btn-large" href="mailto:jada.arnett@gmail">E-mail</a>
+</div>
+</div>
+</div>
 
     </section>
 
