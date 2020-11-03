@@ -1,6 +1,7 @@
 import React from "react";
 import "../assets/css/style.css";
 import banner from "../assets/images/banner2.JPG";
+import resume from "../assets/JOAResume.pdf";
 
 function About() {
   return (
@@ -16,11 +17,14 @@ function About() {
       <p>
         I am a MERN Stack Web Developer that has just completed a coding
         bootcamp with the Georgia Institute of Technology. See my previous work
-        history by viewing my full resume here. Before I stepped into the
-        technology sector, I was an event coordinator for one of the most
-        popular restaurant groups in Atlanta. I am also a part time cardio
-        kickboxing instructor at the only female owned boxing gym in the
-        country!
+        history by viewing my full resume &nbsp;
+        <a href={resume} className="inline-link">
+          here
+        </a>
+        . Before I stepped into the technology sector, I was an event
+        coordinator for one of the most popular restaurant groups in Atlanta. I
+        am also a part time cardio kickboxing instructor at the only female
+        owned boxing gym in the country!
         <br />
         <br />
         When it comes to web development, I keep Michael Scott's "KISS: Keep it
