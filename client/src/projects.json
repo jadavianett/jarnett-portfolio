@@ -1,0 +1,44 @@
+[
+    {
+        "title": "Couchella",
+        "link": "https://jadavianett.github.io/Couchella/",
+        "thumbnail": "",
+        "description": "A stunning interactive web application that allows you to view concerts from your favorite artists right at home!",
+        "technology": "HTML, CSS, jQuery, Materialize, animate.css"
+    },
+    {
+        "title": "Rubbish Rumble",
+        "link": "https://rubbishrumble.herokuapp.com/",
+        "thumbnail": "",
+        "description": "Full stack web RPG that allows users to build and save their own unique squad of characters! These characters can be taken to battle against our unique database of fighters! Players' characters level up as they win battles!",
+        "technology": "CSS, animate.css, Handlebars, mySQL, jQuery, Express, Node.js"
+    },
+    {
+        "title": "ReadMe Generator",
+        "link": "https://drive.google.com/file/d/186s3Y6w4Ez7Rkyp1_hgYcrc5F665g3Lu/view",
+        "thumbnail": "",
+        "description": "Command line application that generates a professional README.md file based on user input.",
+        "technology": "Express, FS"
+    },
+    {
+        "title": "Note Taker",
+        "link": "https://note-taker-ja.herokuapp.com/",
+        "thumbnail": "",
+        "description": "A simple web application that allows you to take notes in your browser. The notes persist over multiple browser sessions.",
+        "technology": "HTML, CSS, jQuery, Express"
+    },
+    {
+        "title": "Budget Tracker",
+        "link": "https://joa-budget-tracker.herokuapp.com/",
+        "thumbnail": "",
+        "description": "Allows users to track their spending habits by entering deposits and withdrawals. This is a PWA that functions offline so it is particularly useful for those that do not have a constant internet or data connection.",
+        "technology": "HTML, CSS, Javascript, MongoDB"
+    },
+    {
+        "title": "Workout Tracker",
+        "link": "https://joa-workout-tracker.herokuapp.com/",
+        "thumbnail": "",
+        "description": "This application allows users to view, create, and track their workouts on any given day. They can track the name, weight, sets, and reps of any resistance exercise. Users can also view graphs of their workout data!",
+        "technology": "HTML, CSS, Javascript, MongoDB"
+    }
+]
