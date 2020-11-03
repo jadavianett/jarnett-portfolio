@@ -8,7 +8,12 @@ function About() {
         Hello, my name is Jada. I am a Full Stack Web Developer living in
         Atlanta, GA.
       </h1>
-      <img></img>
+      
+
+
+      <a href="/#"><img src = "http://via.placehiolder/com/150" alt="placeholder"></img></a>
+
+
 
       <h5> About:</h5>
       <p>
@@ -44,6 +49,12 @@ function About() {
       <hr/>
       
       <h2> Let's Connect!</h2>
+
+<a class="waves-effect waves-light btn-large" href="/#">LinkedIn</a>
+
+<a class="waves-effect waves-light btn-large" href="/#">Github</a>
+
+<a class="waves-effect waves-light btn-large" href="/#">E-mail</a>
 
     </section>
 
