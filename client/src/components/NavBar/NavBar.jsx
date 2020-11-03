@@ -7,11 +7,13 @@ import logo from '../../assets/images/logo.jpg';
 
 const NavBar = () => {
   return (
+    
     <nav>
       <div class="nav-wrapper">
         <a href="/#" class="brand-logo">
           <img src={logo} alt="logo" width="60" height="60"/>
         </a>
+        <a href="/#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
         <li className="nav-item">
             <Link
@@ -40,6 +42,8 @@ const NavBar = () => {
         </ul>
       </div>
     </nav>
+  
+
   );
 };
 
