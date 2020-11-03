@@ -5,6 +5,9 @@ h2 {
 
 }
 
+.row {
+    text-align: center!important;
+}
 
 h6 {
     color: #a67e2e;
@@ -44,7 +47,10 @@ h5 {
     font-size: 2.15rem!important;
 }
 
-
+h1 {
+    animation: fadeIn;
+    animation-duration: 4s;
+}
 h6 {
     font-family: 'Pathway Gothic One', sans-serif;
     font-size: 1.75rem!important;
