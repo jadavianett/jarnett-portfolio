@@ -1,0 +1,20 @@
+.page-footer {
+    text-align: center;
+    padding: 20px;
+        bottom: 0;
+        width: 100%;
+        border-top: solid 1px black!important;
+    color: black!important;
+        background-color:white!important;
+      
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
