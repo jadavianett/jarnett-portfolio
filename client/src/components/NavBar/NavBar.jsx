@@ -8,7 +8,7 @@ const NavBar = () => {
   return (
     <nav>
       <div class="nav-wrapper">
-        <a href="#" class="brand-logo">
+        <a href="/#" class="brand-logo">
           <img src="./logo.jpg" alt="logo" width="20" height="20"/>
         </a>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
