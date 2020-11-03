@@ -50,11 +50,11 @@ function About() {
       
       <h2> Let's Connect!</h2>
 
-<a class="waves-effect waves-light btn-large" href="/#">LinkedIn</a>
+<a class="waves-effect waves-light btn-large" href="https://www.linkedin.com/in/jada-arnett-357130158/">LinkedIn</a>
 
-<a class="waves-effect waves-light btn-large" href="/#">Github</a>
+<a class="waves-effect waves-light btn-large" href="https://github.com/jadavianett">Github</a>
 
-<a class="waves-effect waves-light btn-large" href="/#">E-mail</a>
+<a class="waves-effect waves-light btn-large" href="mailto:jada.arnett@gmail">E-mail</a>
 
     </section>
 
