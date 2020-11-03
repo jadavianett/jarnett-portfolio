@@ -1,6 +1,7 @@
 import React from "react";
 import './NavBar.css';
 import { Link } from "react-router-dom";
+import logo from '../../assets/images/logo.jpg';
 
 
 
@@ -9,7 +10,7 @@ const NavBar = () => {
     <nav>
       <div class="nav-wrapper">
         <a href="/#" class="brand-logo">
-          <img src="./logo.jpg" alt="logo" width="20" height="20"/>
+          <img src={logo} alt="logo" width="60" height="60"/>
         </a>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
         <li className="nav-item">
