@@ -13,7 +13,6 @@ const NavBar = () => {
         <a href="/#" class="brand-logo">
           <img src={logo} alt="logo" width="60" height="60"/>
         </a>
-        <a href="/#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
         <li className="nav-item">
             <Link
