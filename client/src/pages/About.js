@@ -1,20 +1,16 @@
 import React from "react";
-import '../assets/css/style.css';
+import "../assets/css/style.css";
+import banner from "../assets/images/banner2.JPG";
 
 function About() {
   return (
     <section className="hero">
-      <h1>
-        {" "}
-        Hello, my name is Jada. I am a Full Stack Web Developer living in
-        Atlanta, GA.
-      </h1>
-      
+      <h1> Hello, my name is Jada. </h1>
+      <h1>I am a Full Stack Web Developer living in Atlanta, GA.</h1>
 
-
-      <a href="/#"><img src = "http://via.placehiolder/com/150" alt="placeholder"></img></a>
-
-
+      <a href={banner}>
+        <img id="banner" src={banner} alt="placeholder"></img>
+      </a>
 
       <h5> About:</h5>
       <p>
@@ -35,38 +31,51 @@ function About() {
       </p>
       <h5> Services:</h5>
 
-      <h6>Front End Web Development</h6>
+      <h6>FRONT END WEB DEVELOPMENT</h6>
       <p>
         Includes building the visual components of a website. I use HTML,
         Javascript, and CSS to build visually appealing, responsive, interactive
         websites.{" "}
       </p>
-      <h6>Back End Web Development</h6>
+      <h6>BACK END WEB DEVELOPMENT</h6>
       <p>
         Includes connecting the web page that is served up to the client to a
         database that houses information. Focuses on building server-side web
         application logic that integrates seamlessly with front end logic.
       </p>
-      <hr/>
-      
+      <hr />
+
       <div className="container class-container">
-      <h2> Let's Connect!</h2>
-      <br/>
-      <div class="row">
-<div className="col s4">
-<a class="waves-effect waves-light btn-large" href="https://www.linkedin.com/in/jada-arnett-357130158/">LinkedIn</a>
-</div>
-<div className="col s4">
-<a class="waves-effect waves-light btn-large" href="https://github.com/jadavianett">Github</a>
-</div>
-<div className="col s4">
-<a class="waves-effect waves-light btn-large" href="mailto:jada.arnett@gmail">E-mail</a>
-</div>
-</div>
-</div>
-
+        <h2> Let's Connect!</h2>
+        <br />
+        <div class="row">
+          <div className="col s4">
+            <a
+              class="waves-effect waves-light btn-large"
+              href="https://www.linkedin.com/in/jada-arnett-357130158/"
+            >
+              LinkedIn
+            </a>
+          </div>
+          <div className="col s4">
+            <a
+              class="waves-effect waves-light btn-large"
+              href="https://github.com/jadavianett"
+            >
+              Github
+            </a>
+          </div>
+          <div className="col s4">
+            <a
+              class="waves-effect waves-light btn-large"
+              href="mailto:jada.arnett@gmail"
+            >
+              E-mail
+            </a>
+          </div>
+        </div>
+      </div>
     </section>
-
   );
 }
 
