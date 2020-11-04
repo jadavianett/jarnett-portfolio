@@ -18,7 +18,7 @@ function About() {
         I am a MERN Stack Web Developer that has just completed a coding
         bootcamp with the Georgia Institute of Technology. See my previous work
         history by viewing my full resume &nbsp;
-        <a href={resume} className="inline-link">
+        <a href={resume} className="inline-link" target="_blank">
           here
         </a>
         . Before I stepped into the technology sector, I was an event
@@ -57,6 +57,7 @@ function About() {
             <a
               class="waves-effect waves-light btn-large"
               href="https://www.linkedin.com/in/jada-arnett-357130158/"
+              target="_blank"
             >
               LinkedIn
             </a>
@@ -65,6 +66,7 @@ function About() {
             <a
               class="waves-effect waves-light btn-large"
               href="https://github.com/jadavianett"
+              target="_blank"
             >
               Github
             </a>
