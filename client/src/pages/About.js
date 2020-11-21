@@ -1,7 +1,7 @@
 import React from "react";
 import "../assets/css/style.css";
 import banner from "../assets/images/banner2.JPG";
-import resume from "../assets/JOAResume.pdf";
+import resume from "../assets/11_2020 Jada Arnett Full Stack Resume.pdf";
 
 function About() {
   return (

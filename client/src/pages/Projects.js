@@ -3,10 +3,13 @@ import projects from "../projects.json";
 import Project from "../components/Project /Project.jsx";
 
 
+
+
 class Projects extends Component {
     state = {
         projects,
     };
+    
 
     render () {
 
@@ -15,6 +18,8 @@ class Projects extends Component {
         <h3>Samples of some of my most impressive work from the past year.</h3>
         <p>Click on the project title to view the deployed application.</p>
         <br/>
+    
+        
         <div>
          {this.state.projects.map((project) => (
              <Project 
